@@ -13,7 +13,12 @@ This project is designed as an entry‑level cyber security portfolio piece, dem
 
 ## 📁 Project Structure
 
-
+log-analyzer/
+├─ logs/
+│  └─ sample_auth.log
+├─ src/
+│  └─ log_analyzer.py
+└─ README.md
 ---
 
 ## 🧠 How It Works
