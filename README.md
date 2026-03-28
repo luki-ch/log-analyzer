@@ -13,3 +13,35 @@ This project is designed as an entry‑level cyber security portfolio piece, dem
 
 ## 📁 Project Structure
 
+
+---
+
+## 🧠 How It Works
+
+The script:
+1. Reads an authentication log file line by line  
+2. Uses regex to detect:
+   - FAILED logins  
+   - SUCCESS logins  
+3. Extracts:
+   - timestamp  
+   - username  
+   - IP address  
+4. Counts failed attempts per IP and per user  
+5. Flags:
+   - brute force attempts (default: ≥3 failures from same IP)
+   - successful logins during night hours  
+6. Prints a clean summary in the terminal
+
+---
+
+## ▶️ Running the Script
+
+Make sure you have Python installed.
+
+Run the analyzer:
+
+```bash
+python src/log_analyzer.py
+
+
