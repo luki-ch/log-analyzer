@@ -1,13 +1,15 @@
-# log-analyzer
-Python tool for detecting failed logins, brute force attempts and suspicious activity in authentication logs
-# 🔍 Log Analyzer
+# 🔍 Log Analyzer – Suspicious Login Detection Tool
 
-A Python tool that analyzes authentication logs and detects:
-- failed login attempts
-- brute force patterns
-- suspicious IPs
-- night-time successful logins (22:00–06:00)
+A lightweight Python tool for analyzing authentication logs and detecting suspicious activity such as:
+- multiple failed login attempts
+- potential brute‑force attacks
+- users with repeated failures
+- night‑time successful logins (22:00–06:00)
+- top offending IP addresses
 
-## ▶️ Run
+This project is designed as an entry‑level cyber security portfolio piece, demonstrating log parsing, pattern detection, and basic threat analysis.
 
-python src/log_analyzer.py
+---
+
+## 📁 Project Structure
+
